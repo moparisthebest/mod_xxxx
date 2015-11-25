@@ -1,0 +1,12 @@
+Output "mod_ircd.lua"
+
+verse_path = "verse"
+
+Module "verse" (verse_path.."/verse.lua")
+
+--Module "verse" (verse_path.."/init.lua")
+--Module "verse.component" (verse_path.."/component.lua")
+--Module "verse.plugins.groupchat" (verse_path.."/plugins/groupchat.lua")
+--Module "verse.plugins.presence" (verse_path.."/plugins/presence.lua")
+
+Main "mod_ircd.in.lua"
